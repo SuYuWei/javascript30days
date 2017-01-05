@@ -1,0 +1,134 @@
+html, body { 
+	height: 100%; 
+	width: 100%; 
+	margin: 0; 
+	font-family: sans-serif;
+}
+
+#header{
+	width: 100vw;
+	height: 10%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,.4);
+}
+
+.title{
+	width: 100%;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    top: 20px;
+    text-align: center;
+}
+
+.menu{
+	width: 50px;
+	height: 50px;
+	float: right;
+	position: relative;
+	right: 20px;
+    top: 20px;
+	cursor: pointer;
+}
+
+.menu span{
+	display: block;
+	width: 100%;
+	height: 5px;
+	background: #efdd56;
+	border-radius: 9px;
+	position: absolute;
+	transition: .25s ease-in-out;
+}
+
+.menu span:nth-child(1){
+	top: 0px;
+}
+
+.menu span:nth-child(2),.menu span:nth-child(3){
+	top: 15px;
+}
+
+.menu span:nth-child(4){
+	top: 30px;
+}
+
+.menu.open span:nth-child(1),.menu.open span:nth-child(4){
+	opacity: 0;
+}
+
+.menu.open span:nth-child(2){
+	transform: rotate(45deg);
+}
+
+.menu.open span:nth-child(3){
+	transform: rotate(-45deg);
+}
+
+
+#main{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/img.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.keys{
+	width: 100%;
+	height: 100%;
+    display: flex;
+    justify-content: center;/*水平置中*/
+    align-items: center;	/*單行垂直置中*/
+	align-content: center;	/*多行垂直置中*/
+	flex-wrap: wrap;
+}
+
+.key{
+	width: 50px;
+	height: 50px;
+	margin: 10px 20px;
+	padding: 10px;
+	border: 2px solid #ccc;
+	border-radius: 50px;
+	text-align: center;
+	transition: all 0.37s;
+	
+}
+
+.key div{
+	font-size: 30px;
+	color: white;
+}
+
+.key span{
+	font-size: 0.8rem;
+	color: #ccc;
+}
+
+.playing{
+	transform: scale(1.1);
+	border-color: #FFF707;
+	box-shadow: 0 0 10px #FFF707;
+}
+
+
+@media screen and (min-width: 1200px) {
+   
+}
+
+@media screen and (min-width: 768px) and (max-width: 979px) {
+
+}
+
+@media screen and (max-width: 767px) {
+   .menu{
+		width: 40px;
+		height: 40px;
+		top: 15px;
+	}
+}
+
