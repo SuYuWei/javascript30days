@@ -8,6 +8,7 @@ html,body{
 	--space: 0px;
 	--blur: 0px;
 	--radius: 1%;
+	--saturate: 1;
 }
 
 #controls{
@@ -15,15 +16,19 @@ html,body{
 	text-align: center;
 	margin: 100px 0 50px 0;
 }
-
+.block{
+	display: inline-block;
+}
 .photo{
-	width: 500px; 
-	height: 375px;
+	width: 90%;
+	max-width: 500px; 
+	max-height: 375px;
 	margin: 0 auto;
 	display: block;
 	padding: var(--space);
 	background: var(--color);
-	filter: blur(var(--blur));
+	filter: blur(var(--blur)) 
+			saturate(var(--saturate));
 	border-radius: var(--radius);
 	box-shadow: 0 0 5px var(--color);
 }
