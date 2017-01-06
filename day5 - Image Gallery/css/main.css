@@ -1,0 +1,101 @@
+html,body{
+	height: 100%; 
+	width: 100%; 
+	margin: 0; 
+	font-family: Microsoft JhengHei;
+	font-weight: 700;
+}
+.header{
+	width: 100%;
+	position: fixed;
+	background: #6a1208;
+	opacity: .8;
+	z-index: 2;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	padding: 25px 0;
+}
+.panels{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	overflow: hidden;
+}
+
+.panel{
+	position: relative;
+	text-align: center;
+	flex: 1;
+	box-shadow:inset 0 0 0 5px rgba(255,255,255,0.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: all .2s;
+	cursor: pointer;
+
+}
+
+.panel:before{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-position: -43px 0;
+    background-size: cover;
+}
+
+.panel h1{
+	font-size: 36px;
+
+}
+
+.panel p{
+	font-size: 24px;
+}
+
+.panel > *{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1 0 auto;
+	transition:transform 0.2s;
+	opacity: 1;
+	z-index: 2;
+}
+
+.panel > *:first-child{	transform: translateY(-100%); }
+.panel.open-active > *:first-child{ transform: translateY(0); }
+.panel > *:last-child{ transform: translateY(100%); }
+.panel.open-active > *:last-child{ transform: translateY(0); }
+
+.panel.open{
+	flex: 10;
+	background-position: center;
+}
+
+.panel.open h1{
+	font-size: 50px;
+}
+
+.panel.open p{
+	font-size: 36px;
+}
+
+.robin:before{ background-image: url(../img/robin.jpg); }
+.nami:before{ background-image: url(../img/nami.jpg); }
+.luffy:before{ background-image: url(../img/luffy.jpg); }
+.zoro:before{ background-image: url(../img/zoro.jpg); }
+.sanji:before{ background-image: url(../img/sanji.jpg); }
+.usopp:before{ background-image: url(../img/usopp.jpg); }
+.chopper:before{ background-image: url(../img/chopper.jpg); }
+.franky:before{ background-image: url(../img/franky.jpg); }
+.brook:before{ background-image: url(../img/brook.jpg); }
