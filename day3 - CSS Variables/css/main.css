@@ -1,0 +1,32 @@
+html,body{
+	height: 100%; 
+	width: 100%; 
+	margin: 0; 
+	font-family: sans-serif;
+	font-weight: 700;
+}
+
+:root{
+	--color: #8a49b6;
+	--space: 0px;
+	--blur: 0px;
+	--radius: 1%;
+}
+
+#controls{
+	width: 100%;
+	text-align: center;
+	margin: 100px 0 50px 0;
+}
+
+.photo{
+	width: 500px; 
+	height: 375px;
+	margin: 0 auto;
+	display: block;
+	padding: var(--space);
+	background: var(--color);
+	filter: blur(var(--blur));
+	border-radius: var(--radius);
+	box-shadow: 0 0 5px var(--color);
+}
