@@ -1,38 +1,32 @@
-var panels =  document.querySelectorAll(".panel");
+var panels =  $(".panels")
+var panel = $(".panel");
+
+panel.on("click",toggleOpen);
+// panel.on("transitionend",toggleActive);
+
 function toggleOpen(){
 	if($(this).hasClass('open')){
-		this.classList.remove("open");
+		$(this).removeClass("open");
 	}else if($(".panel").hasClass('open')){
-		$(".panel").removeClass("open");
-		this.classList.add("open");
+		panel.removeClass("open");
+		$(this).addClass("open");
 	}else{
-		this.classList.add("open");
+		$(this).addClass("open");
 	}
-	
+
+	if($(this).hasClass('open-active')){
+		$(this).removeClass("open-active");
+	}else if($(".panel").hasClass('open-active')){
+		panel.removeClass("open-active");
+		$(this).addClass("open-active");
+	}else{
+		$(this).addClass("open-active");
+	}
 }
+
 function toggleActive(e){
-	if(e.propertyName.includes("flex")){
-		this.classList.toggle("open-active");
+	if(e.originalEvent.propertyName.indexOf("flex") == 0){
+		$(this).toggleClass("open-active");
 	}
 }
 
-panels.forEach(panel => panel.addEventListener("click",toggleOpen));
-panels.forEach(panel => panel.addEventListener("transitionend",toggleActive));
-
-var gridsBtn =  document.querySelector(".grids");
-var rowsBtn =  document.querySelector(".rows");
-var colBtn =  document.querySelector(".columns");
-
-gridsBtn.addEventListener("click",function(){
-	
-});
-
-rowsBtn.addEventListener("click",function(){
-	$(".panels").css("flex-direction","column");
-	$(".panel").css("flex-direction","row");
-});
-
-colBtn.addEventListener("click",function(){
-	$(".panels").css("flex-direction","row");
-	$(".panel").css("flex-direction","column");
-});
