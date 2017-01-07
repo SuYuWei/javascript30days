@@ -22,8 +22,8 @@ html,body{
 }
 .right{
 	position: absolute;
-	top: 20px;
-    right: 20px;
+	top: 1%;
+    right: 1%;
 	margin-left: 10px;
 	float: right;
 }
