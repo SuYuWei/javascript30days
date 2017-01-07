@@ -7,18 +7,49 @@ html,body{
 }
 .header{
 	width: 100%;
-	position: fixed;
+	height: 10%;
+	/*position: fixed;*/
 	background: #6a1208;
 	opacity: .8;
 	z-index: 2;
 	color: white;
 	text-align: center;
 	font-size: 40px;
-	padding: 25px 0;
 }
+.title{
+	display: inline-block;
+    margin-top: 20px;
+}
+.right{
+	position: absolute;
+	top: 10px;
+    right: 10px;
+	margin-left: 10px;
+	float: right;
+}
+.icon{
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.grids{
+	background-image: url(../img/grids.png);
+}
+.rows{
+	background-image: url(../img/rows.png);
+}
+.columns{
+	background-image: url(../img/columns.png);
+}
+
 .panels{
 	width: 100%;
-	height: 100%;
+	height: 90%;
 	display: flex;
 	overflow: hidden;
 }
@@ -99,3 +130,4 @@ html,body{
 .chopper:before{ background-image: url(../img/chopper.jpg); }
 .franky:before{ background-image: url(../img/franky.jpg); }
 .brook:before{ background-image: url(../img/brook.jpg); }
+

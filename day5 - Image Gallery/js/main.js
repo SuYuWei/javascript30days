@@ -18,3 +18,21 @@ function toggleActive(e){
 
 panels.forEach(panel => panel.addEventListener("click",toggleOpen));
 panels.forEach(panel => panel.addEventListener("transitionend",toggleActive));
+
+var gridsBtn =  document.querySelector(".grids");
+var rowsBtn =  document.querySelector(".rows");
+var colBtn =  document.querySelector(".columns");
+
+gridsBtn.addEventListener("click",function(){
+	
+});
+
+rowsBtn.addEventListener("click",function(){
+	$(".panels").css("flex-direction","column");
+	$(".panel").css("flex-direction","row");
+});
+
+colBtn.addEventListener("click",function(){
+	$(".panels").css("flex-direction","row");
+	$(".panel").css("flex-direction","column");
+});
