@@ -6,3 +6,4 @@ practice javascript for 30 days
 [Day3 - CSS Variables](https://suyuwei.github.io/javascript30days/day3%20-%20CSS%20Variables/)  
 [Day4 - Array1](https://suyuwei.github.io/javascript30days/day4%20-%20Array1/)  
 [Day5 - Image Gallery](https://suyuwei.github.io/javascript30days/day5%20-%20Image%20Gallery/)  
+[Day6 - Ajax Type Ahead](https://suyuwei.github.io/javascript30days/day6%20-%20Ajax%20Type%20Ahead/)  
