@@ -56,7 +56,7 @@ function initMap(){
 			infowindow.open(map, marker);
 			$(".city").text("City: "+val.city);
 			$(".state").text("State: "+val.state);
-			$(".population").text("Population: "+val.population);
+			$(".population").text("Population: "+numberWithCommas(val.population));
 			$(".grow").text("Growth: "+val.growth_from_2000_to_2013);
 		});
 	})
