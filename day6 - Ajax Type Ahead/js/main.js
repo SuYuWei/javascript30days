@@ -9,7 +9,7 @@ var map;
 
 if (useragent.indexOf('iPhone') != -1 || useragent.indexOf('Android') != -1 ) {
 	mapId.style.width = '100%';
-	mapId.style.height = '100%';
+	mapId.style.height = '80vh';
 } else {
 	mapId.style.width = '800px';
 	mapId.style.height = '600px';
