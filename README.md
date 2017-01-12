@@ -8,3 +8,4 @@ practice javascript for 30 days
 [Day5 - Image Gallery](https://suyuwei.github.io/javascript30days/day5%20-%20Image%20Gallery/)  
 [Day6 - Ajax Type Ahead](https://suyuwei.github.io/javascript30days/day6%20-%20Ajax%20Type%20Ahead/)  
 [Day7 - Array2](https://suyuwei.github.io/javascript30days/day7%20-%20Array2/)  
+[Day8 - Canvas](https://suyuwei.github.io/javascript30days/day8%20-%20Canvas/)  
