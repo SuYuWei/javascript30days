@@ -1,0 +1,60 @@
+html,body{
+	font-family: sans-serif;
+	font-weight: 700;
+}
+
+.content{
+	width: 50%;
+	margin: 50px auto;
+	box-shadow: 0 0 10px black;
+}
+
+input[type=checkbox]{
+	display: none;
+}
+
+.checkbox{
+	width: 50%;
+	height: 40px;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+}
+
+.slide{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	margin: 10px;
+	position: relative;
+}
+
+.box{
+	position: absolute;
+	top:0;
+	left: 0;
+	right:0;
+	bottom:0;
+	width: 20px;
+	height: 20px;
+	/*background: black;*/
+	transition: .2s;
+	background: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.slide input:checked + .box{
+	/*background: black;*/
+	content: url(../img/checked.png);
+}
+
+.checkText{
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 12px;
+	font-size: 18px;
+}
