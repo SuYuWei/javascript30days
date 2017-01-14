@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Day11 - Video Player</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	
+	<div id="player">
+		<video class="myVideo" src="MoonHooch.mp4"></video>
+		<div class="play_controls">
+			<div class="playProgress">
+				<div class="playBar"></div>
+			</div>
+			<div class="playBtn icon">
+				<img src="img/play.png" height="20" width="20" alt="">
+			</div>
+			<div class="playTime">00:00</div>
+			<div class="videoTime">/ 00:00</div>
+			<div class="playVolume icon">
+				<img src="img/volume-on.png" height="20" width="20" alt="">
+				<input name="volume" type="range" value="1" min="0" max="1" step="0.2">
+			</div>
+			<div class="playPrev icon" data-skip="-3">
+				<img src="img/fast-reverse.png" height="20" width="20" alt="">
+			</div>
+			<div class="playNext icon" data-skip="3">
+				<img src="img/fast-forward.png" height="20" width="20" alt="">
+			</div>
+			<div class="playRate icon">
+				<img src="img/timer.png" height="20" width="20" alt="">
+				<input name="playbackRate" type="range" value="1" min="0.5" max="2" step="0.5">
+			</div>
+			<div class="fullBtn icon">
+				<img src="img/full.png" height="20" width="20" alt="">
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
