@@ -1,0 +1,116 @@
+html{
+	font-family: sans-serif;
+	font-weight: 700;
+	background:url('../img/whale.jpg') center no-repeat;
+    background-size:cover;
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#main{
+	width: 50%;
+	min-width: 400px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 5px;
+    background: rgba(0,0,0,.6);
+}
+
+.listContent{
+	height: 400px;
+    padding: 10px 20px;
+    overflow-y: auto;
+}
+
+.inputContent{
+	border-top: 1px solid #ccc;
+	padding: 30px 10px;
+}
+
+.list-item{
+	border-bottom: 1px solid #ccc;
+}
+
+.list-item:hover{
+	background: rgb(238, 238, 238);
+	color: black;
+	transform: scale(1.1);
+	transition: 1s;
+}
+
+.list-item .box-content{
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.list-item input[type=checkbox] {
+    display: none;
+}
+
+.list-item .check-btn{
+	float: left;
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+}
+
+.list-item .check-btn:before {
+	content: "";
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	left: 15px;
+	bottom: -37px;
+	background: white;
+	border: 2px solid #ccc;
+	border-radius: 50%;
+}
+
+.list-item input[type=checkbox]:checked + .check-btn:before {
+    content: "\2022";
+    color: #555;
+    font-size: 36px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.list-item .check-text{
+	width: 80%;
+	max-width: 270px;
+	min-height: 24px;
+	float: left;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 50px;
+	padding: 3px 5px;
+	cursor: text;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	line-height: 25px;
+}
+
+.inputText{
+	width: 70%;
+    max-height: 150px;
+    padding: 5px 10px;
+    margin: 0px auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: 0px;
+    cursor: text;
+    overflow-x: hidden;
+    overflow-y: auto;
+    line-height: 25px;
+}
+
+.inputText[contentEditable=true]:empty:before {
+  content: "Write something !";
+  color: #bbb;
+}

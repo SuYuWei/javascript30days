@@ -15,3 +15,5 @@ practice javascript for 30 days
 [Day12 - Key Sequence](https://suyuwei.github.io/javascript30days/day12%20-%20Key%20Sequence/)  
 [Day13 - Slide In on Scroll](https://suyuwei.github.io/javascript30days/day13%20-%20Slide%20In%20on%20Scroll/)  
 [Day14 - JS Reference](https://suyuwei.github.io/javascript30days/day14%20-%20JS%20Reference/)  
+[Day15 - LocalStorage](https://suyuwei.github.io/javascript30days/day15%20-%20LocalStorage/)  
+
