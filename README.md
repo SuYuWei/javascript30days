@@ -13,3 +13,4 @@ practice javascript for 30 days
 [Day10 - Checkboxes](https://suyuwei.github.io/javascript30days/day10%20-%20Checkboxes/)  
 [Day11 - Video Player](https://suyuwei.github.io/javascript30days/day11%20-%20Video%20Player/)  
 [Day12 - Key Sequence](https://suyuwei.github.io/javascript30days/day12%20-%20Key%20Sequence/)  
+[Day13 - Slide In on Scroll](https://suyuwei.github.io/javascript30days/day13%20-%20Slide%20In%20on%20Scroll/)  
