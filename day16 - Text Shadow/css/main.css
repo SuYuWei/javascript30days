@@ -1,0 +1,25 @@
+html{
+	font-family: sans-serif;
+	font-weight: 700;
+	color: #ef5d5d;
+}
+
+.text-content{
+	min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: url(../img/sun.png) 2 2, pointer;
+}
+
+.text{
+	font-size: 100px;
+	position: relative;
+}
+
+.text:before{
+	content: 'TEXT SHASOW';
+	position: absolute;
+	text-shadow: 1px -1px 0 #aaa, 2px -2px 0 #999, 3px -3px 0 #888, 
+				4px -4px 0 #777, 5px -5px 0 #777, 6px -6px 0 #777;
+}
