@@ -17,3 +17,4 @@ practice javascript for 30 days
 [Day14 - JS Reference](https://suyuwei.github.io/javascript30days/day14%20-%20JS%20Reference/)  
 [Day15 - LocalStorage](https://suyuwei.github.io/javascript30days/day15%20-%20LocalStorage/)  
 [Day16 - Text Shadow](https://suyuwei.github.io/javascript30days/day16%20-%20Text%20Shadow/)  
+[Day17 - Sorting](https://suyuwei.github.io/javascript30days/day17%20-%20Sorting/)  
