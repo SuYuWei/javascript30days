@@ -18,3 +18,4 @@ practice javascript for 30 days
 [Day15 - LocalStorage](https://suyuwei.github.io/javascript30days/day15%20-%20LocalStorage/)  
 [Day16 - Text Shadow](https://suyuwei.github.io/javascript30days/day16%20-%20Text%20Shadow/)  
 [Day17 - Sorting](https://suyuwei.github.io/javascript30days/day17%20-%20Sorting/)  
+[Day18 - Tally Time](https://suyuwei.github.io/javascript30days/day18%20-%20Tally%20Time/)  
