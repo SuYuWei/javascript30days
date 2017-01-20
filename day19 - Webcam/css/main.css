@@ -1,0 +1,46 @@
+html{
+	font-family: sans-serif;
+	font-weight: 700;
+}
+.photobooth{
+	text-align: center;
+}
+.controls{
+	display: inline-block;
+}
+.takePicture{
+	width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin: 0 auto;
+	background-image: url(../img/photo-camera.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.photo{
+	margin: 0 auto;
+    display: block;
+    clear: both;
+}
+
+.player {
+	float: right;
+    width: 200px;
+    margin: 20px;
+}
+
+.strip {
+  	padding:2rem;
+}
+
+.strip img {
+    width: 100px;
+    overflow-x: scroll;
+    padding: 0.8rem;
+    box-shadow: 0 0 5px rgba(0,0,0,0.6);
+    background: white;
+}
+
