@@ -1,0 +1,44 @@
+html{
+	font-family: sans-serif;
+	font-weight: 700;
+}
+
+.content{
+	max-width: 500px;
+	margin: 50px auto;
+}
+
+.mic{
+	display: inline-block;
+	vertical-align: top;
+	width: 48px;
+	height: 48px;
+	background-image: url(../img/microphone.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.test{
+	animation: micplay 1s infinite;
+	animation-fill-mode: backwards;
+}
+
+
+.words {
+	width: 70%;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 0 0 5px rgba(0,0,0,.6);
+    border-radius: 5px;
+}
+
+p {
+	margin: 0 0 2rem 0;
+}
+
+@keyframes micplay {
+    0%   {background-image: url(../img/microphone.png);}
+    50%  {background-image: url(../img/microphone1.png);}
+    100% {background-image: url(../img/microphone2.png);}
+}
