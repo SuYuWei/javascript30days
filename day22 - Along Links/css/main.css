@@ -1,0 +1,42 @@
+html{
+	font-family: sans-serif;
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	color: #f00;
+	padding: 5px;
+}
+
+.menu {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+
+
+.menu a {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.wrapper {
+	margin: 20px auto;
+	max-width: 600px;
+	line-height: 2;
+	position: relative;
+}
+
+.highlight {
+	transition: all 0.2s;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background:  black;
+	z-index: -1;
+	border-radius: 20px;
+	display: block;
+	box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
