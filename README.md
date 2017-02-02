@@ -23,3 +23,6 @@ practice javascript for 30 days
 [Day20 - Speech Recognition](https://suyuwei.github.io/javascript30days/day20%20-%20Speech%20Recognition/)  
 [Day21 - Geolocation](https://suyuwei.github.io/javascript30days/day21%20-%20Geolocation/)  
 [Day22 - Along Links](https://suyuwei.github.io/javascript30days/day22%20-%20Along%20Links/)  
+[Day23 - Speech Synthesis](https://suyuwei.github.io/javascript30days/day23%20-%20Speech%20Synthesis/)  
+
+
