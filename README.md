@@ -25,4 +25,4 @@ practice javascript for 30 days
 [Day22 - Along Links](https://suyuwei.github.io/javascript30days/day22%20-%20Along%20Links/)  
 [Day23 - Speech Synthesis](https://suyuwei.github.io/javascript30days/day23%20-%20Speech%20Synthesis/)  
 
-
+[Day25 - Event Capture, Propagation, Bubbling and Once](https://suyuwei.github.io/javascript30days/day25%20-%20Event%20Capture,%20Propagation,%20Bubbling%20and%20Once/)  

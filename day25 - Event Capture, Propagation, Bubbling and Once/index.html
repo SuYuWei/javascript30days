@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Day25 - Event Capture, Propagation, Bubbling and Once</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="one">one
+		<div class="two">two
+			<div class="three">three</div>
+		</div>
+	</div>
+	<button>click</button>
+	<p>
+		With bubbling, the event is first captured and handled by the innermost element and then propagated to outer elements.
+	</p>
+	<p>
+		With capturing, the event is first captured by the outermost element and propagated to the inner elements.
+	</p>
+	<a href="http://stackoverflow.com/questions/4616694/what-is-event-bubbling-and-capturing" target="blank">bubbling and capturing</a>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
