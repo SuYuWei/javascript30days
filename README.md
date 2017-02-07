@@ -26,4 +26,4 @@ practice javascript for 30 days
 [Day23 - Speech Synthesis](https://suyuwei.github.io/javascript30days/day23%20-%20Speech%20Synthesis/)  
 
 [Day25 - Event Capture, Propagation, Bubbling and Once](https://suyuwei.github.io/javascript30days/day25%20-%20Event%20Capture,%20Propagation,%20Bubbling%20and%20Once/)  
-[Day26 - Dropdown](https://suyuwei.github.io/javascript30days/day26%20-%20Dropdown/)  
+[Day27 - Click and Drag to Scroll](https://suyuwei.github.io/day27%20-%20Click%20and%20Drag%20to%20Scroll/)  
