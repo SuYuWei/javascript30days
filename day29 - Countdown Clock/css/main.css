@@ -1,0 +1,97 @@
+html{
+	font-size: 10px;
+	box-sizing: border-box;
+}
+
+body {
+	margin:0;
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+} 
+
+.timer {
+	display: flex;
+	min-height: 100vh;
+  	flex-direction:column;
+  	background: linear-gradient(45deg, #42a5f5 0%, #478ed1 50%, #0d47a1 100%);
+}
+
+.top {
+	display: flex;
+}
+
+.top > button {
+	flex: 1;
+}
+
+.timer_btn {
+	border: 0;
+	cursor: pointer;
+	color: white;
+	font-size: 2rem;
+	text-transform: uppercase;
+	background: rgba(0,0,0,0.1);
+	border-bottom: 3px solid rgba(255,255,255,0.4);
+	border-right: 1px solid rgba(255,255,255,0.6);
+	padding: 1rem;
+	font-family: 'Inconsolata', monospace;
+	outline: none;
+}
+
+.timer_btn:active {
+	border-bottom: 0;
+}
+
+.timer_btn:hover,
+.timer_btn:focus {
+  background:rgba(0,0,0,0.3);
+}
+
+.top form {
+	flex: 1;
+	display:flex;
+}
+
+.top input {
+	flex: 1;
+	font-size: 2rem;
+	padding: 1rem;
+	font-family: 'Inconsolata', monospace;
+}
+
+.display {
+	flex:1;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.display__time-left {
+	font-weight: 100;
+	font-size: 20rem;
+	margin: 0;
+	color: white;
+	text-shadow:4px 4px 0 rgba(0,0,0,0.05);
+}
+
+.display__end-time {
+	font-size: 4rem;
+	color: white;
+}
+
+.timer.active {
+	animation-name: warning;
+	animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes warning {
+	0% {background:  #f24848}
+	50% {background: #f08080}
+	100% {background:  #f24848}
+}

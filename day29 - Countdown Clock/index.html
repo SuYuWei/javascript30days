@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Countdown Clock</title>
+	<link rel="icon" type="image/png" href="img/icon.png">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="timer">
+		<div class="top">
+			<img src="img/clock.png" height="64" width="64" alt="">
+			<button class="timer_btn" data-time="20">20 secs</button>
+			<button class="timer_btn" data-time="300">work 5</button>
+			<button class="timer_btn" data-time="900">quick 15</button>
+			<button class="timer_btn" data-time="1200">snack 20</button>
+			<button class="timer_btn" data-time="3600">lunch break</button>
+			<form name="customForm" id="custom">
+				<input type="text" name="minutes" placeholder="Enter Minutes">
+			</form>
+		</div>
+		<div class="display">
+			<h1 class="display__time-left">0:00:00</h1>
+			<p class="display__end-time">Be Back At 0:00</p>
+		</div>
+	</div>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

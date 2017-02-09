@@ -28,3 +28,4 @@ practice javascript for 30 days
 [Day25 - Event Capture, Propagation, Bubbling and Once](https://suyuwei.github.io/javascript30days/day25%20-%20Event%20Capture,%20Propagation,%20Bubbling%20and%20Once/)  
 [Day27 - Click and Drag to Scroll](https://suyuwei.github.io/day27%20-%20Click%20and%20Drag%20to%20Scroll/)  
 [Day28 - Video Speed Controller UI](https://suyuwei.github.io/day28%20-%20Video%20Speed%20Controller%20UI/)  
+[Day29 - Countdown Clock](https://suyuwei.github.io/day29%20-%20Countdown%20Clock/)  
