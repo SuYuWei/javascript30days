@@ -30,3 +30,4 @@ practice javascript for 30 days
 [Day27 - Click and Drag to Scroll](https://suyuwei.github.io/javascript30days/day27%20-%20Click%20and%20Drag%20to%20Scroll/)  
 [Day28 - Video Speed Controller UI](https://suyuwei.github.io/javascript30days/day28%20-%20Video%20Speed%20Controller%20UI/)  
 [Day29 - Countdown Clock](https://suyuwei.github.io/javascript30days/day29%20-%20Countdown%20Clock/)  
+[Day30 - Whack A Mole Game](https://suyuwei.github.io/javascript30days/day30%20-%20Whack%20A%20Mole%20Game/)  
